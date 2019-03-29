@@ -29,6 +29,6 @@ Any doubts or questions? You can always find us on vk at https://vk.com/zababuri
 This project depends on several excellent libraries and tools:
 
 
-* And of course: WebPack.
+* And of course: WebPack, Gulp
 
 
