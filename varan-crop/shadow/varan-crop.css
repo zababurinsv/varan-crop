@@ -1,0 +1,78 @@
+.c-crop {
+  display: inline-block;
+}
+.c-crop * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.c-crop img {
+  pointer-events: none;
+}
+.c-crop--radius {
+  border-radius: 50%;
+}
+
+.c-crop--hide_main {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.c-crop--main {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: inline-block;
+  background: #eee;
+}
+
+.c-crop--area {
+  position: relative;
+  height: 100%;
+  display: inline-block;
+}
+.c-crop--area:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.c-crop--cut {
+  position: absolute;
+  overflow: hidden;
+  z-index: 200;
+  background: #fff;
+}
+
+.c-crop--cut_img {
+  position: absolute;
+}
+
+.drap-resize_main {
+  pointer-events: none;
+}
+
+.c-crop--preview {
+  vertical-align: bottom;
+}
+
+.c-crop--preview_right .c-crop--preview {
+  display: inline-block;
+  margin: 20px 0 0 20px;
+}
+.c-crop--preview_item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 20px;
+  background: #eee;
+}
+.c-crop--preview_item > img {
+  position: absolute;
+}

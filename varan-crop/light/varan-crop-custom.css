@@ -1,0 +1,166 @@
+.c-crop--drap {
+  position: absolute;
+  top: 0.05vw;
+  left: 0.14vw;
+  z-index: 900;
+  pointer-events: none;
+  width: 98.6%;
+  height: 98.9%;
+}
+.c-crop--drap .line {
+  position: absolute;
+  pointer-events: auto;
+}
+.c-crop--drap .line:after {
+  content: '';
+  position: absolute;
+  background: #fff url(/static/html/components/varan-crop/images/Jcrop.gif);
+}
+.c-crop--drap_screen {
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+
+.c-crop--drap_main {
+  width: 100%;
+  height: 100%;
+}
+
+.c-crop--drap_nline {
+  top: 1px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+}
+.c-crop--drap_nline:after {
+  top: -1px;
+  height: 1px;
+  width: 100%;
+  left: 0;
+}
+
+.c-crop--drap_eline {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 6px;
+}
+.c-crop--drap_eline:after {
+  right: -1px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+}
+
+.c-crop--drap_sline {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+}
+.c-crop--drap_sline:after {
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+}
+
+.c-crop--drap_wline {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px;
+}
+.c-crop--drap_wline:after {
+  left: -1px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+}
+
+.c-crop--drap_n,
+.c-crop--drap_e,
+.c-crop--drap_w,
+.c-crop--drap_s,
+.c-crop--drap_ne,
+.c-crop--drap_nw,
+.c-crop--drap_se,
+.c-crop--drap_sw {
+  width: 0.4vw;
+  height: 0.4vw;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 1px #EEE solid;
+  position: absolute;
+  z-index: 200;
+}
+
+.c-crop--drap_n,
+.c-crop--drap_s {
+  left: 50%;
+  margin-left: -0.2vw;
+}
+
+.c-crop--drap_w,
+.c-crop--drap_e {
+  top: 50%;
+  margin-top: -0.2vw;
+}
+
+.c-crop--drap_n,
+.c-crop--drap_s,
+.c-crop--drap_nline,
+.c-crop--drap_sline {
+  cursor: ns-resize;
+}
+
+.c-crop--drap_w,
+.c-crop--drap_e,
+.c-crop--drap_wline,
+.c-crop--drap_eline {
+  cursor: ew-resize;
+}
+
+.c-crop--drap_n {
+  top: -0.2vw;
+}
+
+.c-crop--drap_e {
+  right: -0.2vw;
+}
+
+.c-crop--drap_s {
+  bottom: -0.2vw;
+}
+
+.c-crop--drap_w {
+  left: -0.2vw;
+}
+
+.c-crop--drap_ne {
+  right: -0.2vw;
+  top: -0.2vw;
+  cursor: nesw-resize;
+  pointer-events: auto;
+}
+
+.c-crop--drap_nw {
+  left: -0.2vw;
+  top: -0.2vw;
+  cursor: nwse-resize;
+  pointer-events: auto;
+}
+
+.c-crop--drap_se {
+  right: -0.2vw;
+  bottom: -0.2vw;
+  cursor: nwse-resize;
+  pointer-events: auto;
+}
+
+.c-crop--drap_sw {
+  left: -0.2vw;
+  bottom: -0.2vw;
+  cursor: nesw-resize;
+  pointer-events: auto;
+}
