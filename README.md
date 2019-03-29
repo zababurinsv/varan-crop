@@ -1,6 +1,6 @@
 #Web Component['varan-crop']
 ====
-[![Build Status](https://travis-ci.org/wasdk/WebAssemblyStudio.svg?branch=master)](https://travis-ci.org/wasdk/WebAssemblyStudio)
+[![Build Status](https://#?branch=master)](https://travis-ci.org/wasdk/WebAssemblyStudio)
 
  
 This repository contains the [Web Component](https://#) website source code.
