@@ -1,4 +1,5 @@
-Web Component['varan-crop']
+Web Component
+Varan-Crop
 ====
 [![Build Status](https://travis-ci.org/wasdk/WebAssemblyStudio.svg?branch=master)](https://#)
 [![Coverage Status](https://coveralls.io/repos/github/wasdk/WebAssemblyStudio/badge.svg)](https://#) [![Maintainance Status](https://img.shields.io/badge/maintained-seldom-yellowgreen.svg)](https://#)
