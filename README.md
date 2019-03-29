@@ -15,3 +15,19 @@ To run a local copy, you will need to install node.js and webpack on your comput
 npm install
 ```
 
+
+
+### Contributing
+
+Please get familiar with the [contributing guide](https://#).
+
+Any doubts or questions? You can always find us on vk at https://vk.com/zababurin
+
+### Credits
+
+This project depends on several excellent libraries and tools:
+
+
+* And of course: WebPack.
+
+
